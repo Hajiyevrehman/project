@@ -1,0 +1,16 @@
+{
+2    "version": 2,
+3    "builds": [
+4      {
+5        "src": "api/analyze_github_user.py",
+6        "use": "@vercel/python"
+7      }
+8    ],
+9    "routes": [
+10      {
+11        "src": "/api/analyze_github_user",
+12        "dest": "api/analyze_github_user.py"
+13      }
+14    ]
+15  }
+16  
