@@ -1,0 +1,17 @@
+{
+2  "name": "my-vercel-project",
+3  "version": "1.0.0",
+4  "description": "",
+5  "main": "index.js",
+6  "scripts": {
+7    "test": "echo \"Error: no test specified\" && exit 1"
+8  },
+9  "keywords": [],
+10  "author": "",
+11  "license": "ISC",
+12  "dependencies": {
+13    "github-api": "^3.4.0",
+14    "openai": "^3.2.1"
+15  }
+16}
+17
